@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/mainscreen1"
+        android:layout_width="match_parent"
+        android:layout_height="1720px"
+        app:layout_constraintBottom_toTopOf="@+id/btnbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/p1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainscreen2"
+        android:layout_width="match_parent"
+        android:layout_height="1720px"
+        app:layout_constraintBottom_toTopOf="@+id/btnbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/p2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainscreen3"
+        android:layout_width="match_parent"
+        android:layout_height="1720px"
+        app:layout_constraintBottom_toTopOf="@+id/btnbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/p3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainscreen4"
+        android:layout_width="match_parent"
+        android:layout_height="1720px"
+        app:layout_constraintBottom_toTopOf="@+id/btnbg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            layout="@layout/p4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"></include>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/btnbg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnbg">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainbtns"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/lowerbtn1"
+            android:layout_width="298px"
+            android:layout_height="196px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="2px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:src="@drawable/btnoff"
+            />
+
+        <ImageButton
+            android:id="@+id/lowerbtn2"
+            android:layout_width="298px"
+            android:layout_height="196px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="2px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:src="@drawable/btnoff"
+            />
+
+        <ImageButton
+            android:id="@+id/lowerbtn3"
+            android:layout_width="298px"
+            android:layout_height="196px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="2px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:src="@drawable/btnoff"
+            />
+
+        <ImageButton
+            android:id="@+id/lowerbtn4"
+            android:layout_width="298px"
+            android:layout_height="196px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1px"
+            android:layout_marginTop="2px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1"
+            android:src="@drawable/btnoff"
+             />
+
+
+    </LinearLayout>
+
+    <!--    </FrameLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
